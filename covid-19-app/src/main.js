@@ -16,7 +16,6 @@ import Authors from './components/Authors.vue'
 import CountryInfo from './components/CountryInfo.vue'
 import News from './components/News.vue'
 import axios from 'axios'
-import Signup from './components/Signup.vue'
 import Logout from './components/Logout.vue'
 
 import './registerServiceWorker'
@@ -33,7 +32,6 @@ const routes = [
   { path: '/CountryInfo/:CountryCode', component: CountryInfo },
   { path: '/info', component: Info },
   { path: '/news', component: News },
-  { path: '/signup', name: 'signup', component: Signup },
   { path: '/logout', name: 'logout', component: Logout }
 ]
 
