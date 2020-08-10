@@ -66,13 +66,12 @@ router.beforeEach((to, from, next) => {
 
 export default router
 
-let app;
+let app
 
-    if (!app) {
-        app = new Vue({
-            el: '#app',
-            router,
-            render: h => h(App)
-        })
-    }
- 
+if (!app) {
+  app = new Vue({
+    el: '#app',
+    router,
+    render: h => h(App)
+  })
+}
