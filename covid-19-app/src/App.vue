@@ -11,12 +11,6 @@
           <li>
             <a @click="$router.push('/countries').catch(err =>{})">Countries</a>
           </li>
-          <li>
-            <a @click="$router.push('/info').catch(err =>{})">Info</a>
-          </li>
-          <li>
-            <a @click="$router.push('/news').catch(err =>{})">News</a>
-          </li>
         </ul>
         </header>
     <router-view></router-view>

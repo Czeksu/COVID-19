@@ -11,12 +11,8 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 import Countries from './components/Countries.vue'
 import Home from './components/Home.vue'
-import Info from './components/Info.vue'
-import Authors from './components/Authors.vue'
 import CountryInfo from './components/CountryInfo.vue'
-import News from './components/News.vue'
 import axios from 'axios'
-import Logout from './components/Logout.vue'
 
 import './registerServiceWorker'
 
@@ -28,11 +24,7 @@ const routes = [
   { path: '/', name: 'home', component: Home },
   { path: '/countries', name: 'countries', component: Countries },
   { path: '/app', component: App },
-  { path: '/authors', component: Authors },
-  { path: '/CountryInfo/:CountryCode', component: CountryInfo },
-  { path: '/info', component: Info },
-  { path: '/news', component: News },
-  { path: '/logout', name: 'logout', component: Logout }
+  { path: '/CountryInfo/:CountryCode', component: CountryInfo }
 ]
 
 const router = new VueRouter({
