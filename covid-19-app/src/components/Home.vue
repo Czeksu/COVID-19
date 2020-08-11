@@ -17,34 +17,34 @@
                 <h4 class="dataText">New recovered:</h4>
                 <p class="data">{{countries.Global.NewRecovered}} <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Recycling_symbol2.svg/1024px-Recycling_symbol2.svg.png" width="40px" height="40px" style="margin-bottom:10px;"></p>
             </div>
+            <div class="col-md-6" id="firstColumnHome">
+              <h4 style="text-align: center">European popular countries</h4>
+              <p class="countrylink"><img class="img" v-bind:src="'https://www.countryflags.io/ES/flat/24.png'">
+              <router-link v-bind:to="'/CountryInfo/ES'">Spain</router-link></p>
+              <p class="countrylink"><img class="img" v-bind:src="'https://www.countryflags.io/GB/flat/24.png'"> 
+              <router-link v-bind:to="'/CountryInfo/GB'">United Kingdom</router-link></p>
+              <p class="countrylink"><img class="img" v-bind:src="'https://www.countryflags.io/IT/flat/24.png'"> 
+              <router-link v-bind:to="'/CountryInfo/IT'">Italy</router-link></p>
+              <p class="countrylink"><img class="img" v-bind:src="'https://www.countryflags.io/DE/flat/24.png'"> 
+              <router-link v-bind:to="'/CountryInfo/DE'">Germany</router-link></p>
+              <p class="countrylink"><img class="img" v-bind:src="'https://www.countryflags.io/PL/flat/24.png'"> 
+              <router-link v-bind:to="'/CountryInfo/PL'">Poland</router-link></p>
+            </div>
+            <div class="col-md-6" id="firstColumnHome">
+              <h4 style="text-align: center">Other popular countries</h4>
+              <p class="countrylink"><img class="img" v-bind:src="'https://www.countryflags.io/US/flat/24.png'"> 
+              <router-link v-bind:to="'/CountryInfo/US'">United States</router-link></p>
+              <p class="countrylink"><img class="img" v-bind:src="'https://www.countryflags.io/BR/flat/24.png'"> 
+              <router-link v-bind:to="'/CountryInfo/BR'">Brazil</router-link></p>
+              <p class="countrylink"><img class="img" v-bind:src="'https://www.countryflags.io/IN/flat/24.png'"> 
+              <router-link v-bind:to="'/CountryInfo/IN'">India</router-link></p>
+              <p class="countrylink"><img class="img" v-bind:src="'https://www.countryflags.io/RU/flat/24.png'"> 
+              <router-link v-bind:to="'/CountryInfo/RU'">Russian Federation</router-link></p>
+              <p class="countrylink"><img class="img" v-bind:src="'https://www.countryflags.io/CN/flat/24.png'"> 
+              <router-link v-bind:to="'/CountryInfo/CN'">China</router-link></p>
+            </div>
       </div>
       <div class="row">
-        <div class="col-md-6" id="firstColumnHome">
-          <h4>European most popular countries</h4>
-          <img class="img" v-bind:src="'https://www.countryflags.io/ES/flat/24.png'"> 
-          <router-link v-bind:to="'/CountryInfo/ES'">Spain</router-link>
-          <img class="img" v-bind:src="'https://www.countryflags.io/GB/flat/24.png'"> 
-          <router-link v-bind:to="'/CountryInfo/GB'">United Kingdom</router-link>
-          <img class="img" v-bind:src="'https://www.countryflags.io/IT/flat/24.png'"> 
-          <router-link v-bind:to="'/CountryInfo/IT'">Italy</router-link>
-          <img class="img" v-bind:src="'https://www.countryflags.io/DE/flat/24.png'"> 
-          <router-link v-bind:to="'/CountryInfo/DE'">Germany</router-link>
-          <img class="img" v-bind:src="'https://www.countryflags.io/PL/flat/24.png'"> 
-          <router-link v-bind:to="'/CountryInfo/PL'">Poland</router-link>
-        </div>
-        <div class="col-md-6" id="firstColumnHome">
-          <h4>Other popular countries</h4>
-          <img class="img" v-bind:src="'https://www.countryflags.io/US/flat/24.png'"> 
-          <router-link v-bind:to="'/CountryInfo/US'">United States</router-link>
-          <img class="img" v-bind:src="'https://www.countryflags.io/BR/flat/24.png'"> 
-          <router-link v-bind:to="'/CountryInfo/BR'">Brazil</router-link>
-          <img class="img" v-bind:src="'https://www.countryflags.io/IN/flat/24.png'"> 
-          <router-link v-bind:to="'/CountryInfo/IN'">India</router-link>
-          <img class="img" v-bind:src="'https://www.countryflags.io/RU/flat/24.png'"> 
-          <router-link v-bind:to="'/CountryInfo/RU'">Russian Federation</router-link>
-          <img class="img" v-bind:src="'https://www.countryflags.io/CN/flat/24.png'"> 
-          <router-link v-bind:to="'/CountryInfo/CN'">China</router-link>
-        </div>
       </div>
     </div>
 </template>
